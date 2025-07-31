@@ -1,0 +1,13 @@
+//SPDX-License-Identifier: MIT
+
+pragma solidity >=0.7.0 <0.9.0;
+
+contract SimpleStorage{
+    uint256 favoriteNumber = 5;  // unit is unsigned integer // by default intialize to 0 if nothing is specified
+    bool favoritebool = true;
+    string favoriteString = "Hello";
+    int favoriteInteger = -5;
+    address fevoriteAddress = 0x50d1327588F8a9b7d6f1589294b51912Ab78bE68;
+    bytes32 favoriteBytes = "Cat"; 
+}
+
